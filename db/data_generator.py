@@ -19,7 +19,7 @@ def create_table(query):
 def insert_data(data):
     # data insertion query
     query = f"""
-    insert into carlifornia_housing (
+    insert into california_housing (
         timestamp,
         MedInc,
         HouseAge,
@@ -55,7 +55,7 @@ def loop_insertion(df):
         insert_data(data)
 
 # table creation query
-creation_query = """create table if not exists carlifornia_housing (
+creation_query = """create table if not exists california_housing (
     id serial primary key,
     timestamp timestamp,
     MedInc float8,
