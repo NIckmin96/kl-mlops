@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/bokkimin/Desktop/workspace/kblife_mlops/kl-mlops/model/mlruns/971908572237560787/baafa49153324e309c9c694517278781/artifacts
+end_time: 1689063968418
+entry_point_name: ''
+experiment_id: '971908572237560787'
+lifecycle_stage: active
+run_id: baafa49153324e309c9c694517278781
+run_name: useful-foal-576
+run_uuid: baafa49153324e309c9c694517278781
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689063955989
+status: 3
+tags: []
+user_id: bokkimin

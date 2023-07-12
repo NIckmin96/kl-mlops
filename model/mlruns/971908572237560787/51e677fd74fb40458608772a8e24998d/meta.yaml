@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/bokkimin/Desktop/workspace/kblife_mlops/kl-mlops/model/mlruns/971908572237560787/51e677fd74fb40458608772a8e24998d/artifacts
+end_time: 1689064171555
+entry_point_name: ''
+experiment_id: '971908572237560787'
+lifecycle_stage: active
+run_id: 51e677fd74fb40458608772a8e24998d
+run_name: righteous-sow-606
+run_uuid: 51e677fd74fb40458608772a8e24998d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689064161026
+status: 3
+tags: []
+user_id: bokkimin
