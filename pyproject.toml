@@ -17,6 +17,7 @@ fastapi = "^0.99.1"
 ipykernel = "^6.24.0"
 xgboost = "^1.7.6"
 boto3 = "^1.28.2"
+pydantic = "1.9"
 
 
 [build-system]
