@@ -16,7 +16,7 @@ from sklearn.preprocessing import StandardScaler
 # slack alarm function
 def alarm(msg):
     payload = {"text":msg}
-    url = "https://hooks.slack.com/services/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"
+    url = ${{secrets.WEBHOOK_URL}}
     headers = {'Content-type':'application/json'}
     requests.post(url=url, headers=headers, data=json.dumps(payload))
 
