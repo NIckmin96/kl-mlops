@@ -16,3 +16,4 @@ def predict(data:PredictIn) -> PredictOut:
     df = pd.DataFrame([data.dict()])
     pred = Model.predict(df).item()
     return PredictOut(medhouseval = pred)
+

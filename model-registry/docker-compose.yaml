@@ -56,3 +56,28 @@ services:
         --backend-store-uri postgresql://mlflowuser:mlflowpassword@mlflow-backend-store/mlflowdatabase \
         --default-artifact-root s3://mlflow/ \
         --host 0.0.0.0
+
+  # prometheus:
+  #   image: prom/prometheus
+  #   container_name : monitoring-server
+  #   depends_on:
+  #     mlflow-backend-store:
+  #       condition: service_healthy
+      
+  #   ports:
+  #     - 9090:9090
+  #   volumes:
+  #     - ./prometheus.yml:/etc/prometheus/prometheus.yml
+
+  # node-exporter:
+  #   image: quay.io/prometheus/node-exporter:latest
+  #   container_name: node_exporter
+  #   ports: 
+  #     - 9100:9100
+    # command:
+    #   - '--path.rootfs=/host'
+    # network_mode: host
+    # pid: host
+    # restart: unless-stopped
+    # volumes:
+    #   - '/:/host:ro,rslave'
